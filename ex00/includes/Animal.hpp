@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 22:41:08 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/14 20:35:26 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/14 21:50:52 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ class Animal {
 		Animal();                              // コンストラクタ
 		Animal(const Animal &copy);            // コピーコンストラクタ
 		Animal& operator=(const Animal &copy); // 代入演算子のオーバーロード
-		virtual ~Animal();                     //デストラクタ
+		virtual ~Animal();                     // デストラクタ
 
 		// アクション定義
 		virtual void makeSound() const;        // 鳴き声
