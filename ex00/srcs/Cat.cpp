@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 22:41:23 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/14 22:08:40 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/15 20:24:10 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,4 +40,8 @@ Cat::~Cat() {
 // 🐈の鳴き声アクション
 void Cat::makeSound() const {
 	std::cout << "Meow!" << std::endl;
+}
+
+Brain *Cat::getBrain() const {
+	return _brain;	
 }
