@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 22:41:21 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/14 22:08:04 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 18:09:53 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,10 +36,12 @@ Animal::~Animal() {
 	std::cout << "Animal destructor called" << std::endl;
 }
 
+// 鳴き声
 void Animal::makeSound() const {
 	std::cout << "Animal Sound!!" << std::endl;
 }
 
+// ゲッター
 std::string Animal::getType() const {
 	return _type;
 }

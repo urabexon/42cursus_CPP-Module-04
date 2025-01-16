@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/13 22:41:11 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/14 22:02:30 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 18:17:21 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include "Animal.hpp"
 
+// Animalクラスから継承し、Catクラスを作成する
 class Cat : public Animal {
 	public:
 		Cat();                           // コンストラクタ
