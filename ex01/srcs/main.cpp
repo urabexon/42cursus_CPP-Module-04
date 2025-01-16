@@ -6,12 +6,14 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 23:11:11 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/15 20:34:49 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 18:57:11 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "Dog.hpp"
+#include "Animal.hpp"
 #include "Cat.hpp"
+#include "Dog.hpp"
+#include "WrongAnimal.hpp"
 #include "WrongCat.hpp"
 
 int main() {
