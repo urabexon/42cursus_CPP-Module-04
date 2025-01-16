@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 21:30:00 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/15 22:29:05 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 19:08:21 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ class AAnimal {
 		virtual ~AAnimal();                      // デストラクタ
 
 		// アクション定義
-		virtual void makeSound() const = 0;      // 鳴き声
+		virtual void makeSound() const = 0;      // 鳴き声(純粋仮想関数)
 		std::string getType() const;             // ゲッター
 
 	protected: // protectedに変更して、派生クラスからアクセス可能にする

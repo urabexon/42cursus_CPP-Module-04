@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 21:30:44 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/15 22:30:18 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 19:09:41 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,6 +46,7 @@ void Cat::makeSound() const {
 	std::cout << "Meow!" << std::endl;
 }
 
+// 脳の情報を取得する関数
 Brain *Cat::getBrain() const {
 	return _brain;	
 }

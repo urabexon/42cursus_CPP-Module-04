@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/14 23:11:03 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/16 18:53:59 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 19:07:02 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,14 +40,14 @@ Brain::~Brain() {
 	std::cout << "Brain destructor called" << std::endl;
 }
 
-// // ゲッター(アイデア取得)
+// ゲッター(アイデア取得)
 std::string Brain::getIdea(int index) const {
 	if (index >= 0 && index < 100)
 		return _ideas[index];
 	return NULL;
 }
 
-// // セッター(アイデア設定)
+// セッター(アイデア設定)
 void Brain::setIdea(int index, const std::string &idea) {
 	if (index >= 0 && index < 100)
 		_ideas[index] = idea;

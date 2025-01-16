@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 21:30:46 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/15 21:52:08 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 19:09:53 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,6 +47,7 @@ void Dog::makeSound() const {
 	std::cout << "Woof!" << std::endl;
 }
 
+// 脳の情報を取得する関数
 Brain *Dog::getBrain() const {
 	return _brain;
 }

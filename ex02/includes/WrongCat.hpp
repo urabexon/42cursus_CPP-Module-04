@@ -6,7 +6,7 @@
 /*   By: hurabe <hurabe@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/15 21:30:41 by hurabe            #+#    #+#             */
-/*   Updated: 2025/01/15 21:31:58 by hurabe           ###   ########.fr       */
+/*   Updated: 2025/01/16 19:01:54 by hurabe           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 #include "WrongAnimal.hpp"
 
+// WrongAnimalクラスから継承し、WrongCatクラスを作成する
 class WrongCat : public WrongAnimal {
 	public:
 		WrongCat();                                // コンストラクタ
